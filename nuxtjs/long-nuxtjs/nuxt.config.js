@@ -1,6 +1,7 @@
 import { Lang } from './cores/utils/const/lang'
 
 export default {
+  ssr: false,
   target: 'static',
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -60,6 +61,12 @@ export default {
 
   general: {
     fallback: true
+  },
+
+  rollupOptions: {
+    input: {
+      main: resolve(__dirname, "index.html"),
+    }
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
