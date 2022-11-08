@@ -5,6 +5,12 @@
   "Tutorial": {
     "description": "Auto imported from components/Tutorial.vue"
   },
+  "LayoutsFooter": {
+    "description": "Auto imported from components/layouts/footer.vue"
+  },
+  "LayoutsHeader": {
+    "description": "Auto imported from components/layouts/header.vue"
+  },
   "CommonsAboutUs": {
     "description": "Auto imported from components/commons/AboutUs.vue"
   },
@@ -22,11 +28,5 @@
   },
   "CommonsOurGames": {
     "description": "Auto imported from components/commons/OurGames.vue"
-  },
-  "LayoutsFooter": {
-    "description": "Auto imported from components/layouts/footer.vue"
-  },
-  "LayoutsHeader": {
-    "description": "Auto imported from components/layouts/header.vue"
   }
 }

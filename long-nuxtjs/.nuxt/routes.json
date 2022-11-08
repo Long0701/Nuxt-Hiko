@@ -2,7 +2,8 @@
   {
     "name": "index",
     "path": "/",
-    "component": "/Users/longnguyen/Desktop/Nuxt-Hiko/long-nuxtjs/pages/index.vue",
-    "chunkName": "pages/index"
+    "component": "/Users/longnguyen/Desktop/Nuxt-Hiko/Nuxt-Hiko/long-nuxtjs/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_717fae6d"
   }
 ]

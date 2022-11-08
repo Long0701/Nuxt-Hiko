@@ -20,7 +20,7 @@ export const options = {
   sortRoutes: true,
   strategy: "no_prefix",
   lazy: true,
-  langDir: "/Users/longnguyen/Desktop/Nuxt-Hiko/long-nuxtjs/cores/langs",
+  langDir: "/Users/longnguyen/Desktop/Nuxt-Hiko/Nuxt-Hiko/long-nuxtjs/cores/langs",
   rootRedirect: null,
   detectBrowserLanguage: {"alwaysRedirect":false,"cookieAge":365,"cookieCrossOrigin":false,"cookieDomain":null,"cookieKey":"i18n_redirected","cookieSecure":false,"fallbackLocale":"","redirectOn":"root","useCookie":true},
   differentDomains: false,

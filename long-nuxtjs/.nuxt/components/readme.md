@@ -8,11 +8,11 @@ You can directly use them in pages and other components without the need to impo
 
 - `<NuxtLogo>` | `<nuxt-logo>` (components/NuxtLogo.vue)
 - `<Tutorial>` | `<tutorial>` (components/Tutorial.vue)
+- `<LayoutsFooter>` | `<layouts-footer>` (components/layouts/footer.vue)
+- `<LayoutsHeader>` | `<layouts-header>` (components/layouts/header.vue)
 - `<CommonsAboutUs>` | `<commons-about-us>` (components/commons/AboutUs.vue)
 - `<CommonsCarousel>` | `<commons-carousel>` (components/commons/Carousel.vue)
 - `<CommonsDropdown>` | `<commons-dropdown>` (components/commons/Dropdown.vue)
 - `<CommonsGotoTop>` | `<commons-goto-top>` (components/commons/GotoTop.vue)
 - `<CommonsInput>` | `<commons-input>` (components/commons/Input.vue)
 - `<CommonsOurGames>` | `<commons-our-games>` (components/commons/OurGames.vue)
-- `<LayoutsFooter>` | `<layouts-footer>` (components/layouts/footer.vue)
-- `<LayoutsHeader>` | `<layouts-header>` (components/layouts/header.vue)
