@@ -1,0 +1,81 @@
+.custom-carousel-bg {
+  background: map-get($colors, gray-100);
+  .custom-carousel {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .carousel {
+    padding: 8rem 0;
+    @include respond-below(medium) {
+      padding: 4rem 0;
+    }
+    .heading-carousel {
+      margin-bottom: 4rem;
+    }
+    .owl-theme .owl-nav {
+      button {
+        position: absolute;
+        top: 20%;
+        z-index: 1;
+        span {
+          display: none;
+        }
+      }
+      .owl-prev, .owl-next {
+        height: 3.3rem;
+        width: 3.3rem;
+        border-radius: 1rem;
+        background-color: map-get($colors, white);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        &::before {
+          font-size: 1.2rem;
+          color: map-get($colors, gray-200);
+          font-family: "icomoon" !important;
+        }
+      }
+      .owl-prev {
+        left: -5rem;
+        transform: rotate(180deg);
+        @include respond-below(medium) {
+          left: -3rem;
+        }
+        &::before {
+          content: "\e921";
+          font-size: 1.6rem;
+        }
+      }
+      .owl-next {
+        right: -5rem;
+        @include respond-below(medium) {
+          right: -3rem;
+        }
+        &::before {
+          content: "\e921";
+          font-size: 1.6rem;
+        }
+      }
+    }
+    .owl-carousel {
+      .owl-item {
+        img {
+          height: 10rem;
+          @include respond-below(medium) {
+            height: 7.2rem;
+          }
+        }
+      }
+    } 
+    .owl-theme {
+      .owl-dots {
+        margin-top: 2rem;
+        .owl-dot {
+          &.active, &:hover {
+            span {
+              background: map-get($colors, primary);
+            }
+          }
+        }
+      }
+    }
+  }
+}

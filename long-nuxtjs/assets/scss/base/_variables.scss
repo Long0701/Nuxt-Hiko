@@ -1,0 +1,76 @@
+// === Font === //
+$font-body: 'Montserrat';
+
+// === Font Weight === //
+$font-weight: (
+  thin: 300,
+  regular: 400,
+  medium: 500,
+  bold: 700,
+  black: 900,
+);
+
+// == Breakpoints === //
+$breakpoints: (
+  s-320: 320px,
+  s-375: 375px,
+  s-480: 480px,
+  s-600: 600px,
+  medium: 768px,
+  s-960: 960px,
+  s-1024: 1024px,
+  s-1280: 1280px,
+  s-1366: 1366px,
+  s-1440: 1440px,
+  largest: 1920px,
+  d-2560: 2560px,
+  d-3000: 3000px,
+);
+
+// === Colors === //
+$colors: (
+  primary: #08613C,
+  secondary: #567266,
+  main: #243247,
+  gray-100: #F6F6F6,
+  gray-200: #c1c6d8,
+  gray-300: #757575,
+  gray-400: #EEEEEE,
+  black: #000,
+  white: #fff,
+  border: #C4C4C4,
+  blue: #079BEE,
+);
+
+// === z-index === //
+$z-index: (
+);
+
+// === Typography === //
+$font-size-base: 1.4rem !default; // 14px
+$check-box-size: 1.6rem;
+$input-height: 3.6rem;
+
+$attributes: (
+  w: width,
+  h: height,
+  max-w: max-width,
+  min-w: min-width,
+  max-h: max-height,
+  min-h: min-height
+);
+
+$custom-sizes: (
+  1px: .1rem,
+  2px: .2rem,
+  3px: .3rem,
+  4px: .4rem,
+  5px: .5rem,
+  6px: .6rem,
+  7px: .7rem,
+  8px: .8rem,
+  9px: .9rem,
+  10px: 1rem,
+  15px: 1.5rem,
+  20px: 2rem
+);
