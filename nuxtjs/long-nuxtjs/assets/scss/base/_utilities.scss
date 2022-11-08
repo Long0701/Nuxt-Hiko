@@ -1,0 +1,8 @@
+
+@each $attr, $value  in $attributes {
+  @each $size, $v in $custom-sizes {
+    .#{$attr}-#{$size} {
+      #{$value}: $v !important;
+    }
+  }
+}

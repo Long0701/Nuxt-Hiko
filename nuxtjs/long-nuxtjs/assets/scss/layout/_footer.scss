@@ -1,0 +1,114 @@
+.page-footer {
+  .bg-footer {
+    height: auto;
+    background-image: url("assets/images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 6rem;
+  }
+  .coppy-right {
+    background-color: map-get($colors, black);
+    color: map-get($colors, white);
+    padding: 2.5rem 0;
+    font-size: 1.8rem;
+  }
+  .wrapper-footer {
+    display: flex;
+    justify-content: space-between;
+    .logo {
+      img {
+        width: 14rem;
+      }
+    }
+    .footer-icon {
+      img {
+        width: 2.9rem;
+      }
+    }
+    .footer-network {
+      margin-top: 3rem;
+    }
+    .footer-right {
+      display: flex;
+    }
+    .custom-input {
+      margin-top: 1.5rem;
+    }
+    .footer-address, .footer-subscribe {
+      h3 {
+        color: map-get($colors, white);
+        font-size: 2.4rem;
+        font-weight: 700;
+        line-height: 3rem;
+        margin-bottom: 4rem;
+      }
+      p {
+        color: map-get($colors, white);
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 2rem;
+        margin-bottom: 0;
+      }
+    }
+    .footer-address {
+      .footer-icon {
+        height: 3.3rem;
+        &__address {
+          margin-bottom: 4rem;
+        }
+        &__phone {
+          align-items: center;
+        }
+      }
+      img {
+        margin-right: 1rem;
+      }
+    }
+    .footer-subscribe {
+      margin-left: 4rem;
+    }
+  }
+  @include respond-below(medium) {
+    .bg-footer {
+      padding: 3rem 1.5rem;
+    }
+    .wrapper-footer {
+      display: block;
+      .logo {
+        text-align: center;
+      }
+      .footer-network {
+        width: 14rem;
+        margin: 0 auto;
+        padding-top: 3.5rem;
+      }
+      .footer-address {
+        .footer-icon {
+          &__address {
+            margin-bottom: 8rem;
+          }
+        }
+      }
+      .footer-address, .footer-subscribe {
+        h3 {
+          margin-bottom: 2rem;
+        }
+      }
+      .footer-subscribe {
+        margin-left: 0;
+      }
+      .footer-right {
+        display: block;
+        .footer-address, .footer-subscribe {
+          padding-top: 5rem;
+        }
+      }
+      .custom-input {
+        .icon-arrow {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

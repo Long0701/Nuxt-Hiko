@@ -1,0 +1,28 @@
+.btn {
+  border: none;
+  outline: none;
+  box-shadow: none;
+  color: map-get($colors, white);
+  display: inline-block;
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  &:hover {
+    color: map-get($colors, white);
+  }
+}
+%btn-common {
+  @include pxRem(font-size, 16);
+  @include pxRem(border-radius, 40);
+  @include pxRem(height, 58);
+  color: map-get($colors, white);
+  text-align: center;
+  font-weight: bold;
+  line-height: 1;
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: transparent;
+  }
+}

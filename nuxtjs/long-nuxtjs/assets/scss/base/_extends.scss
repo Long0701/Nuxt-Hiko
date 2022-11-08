@@ -1,0 +1,78 @@
+%clr {
+  &::after {
+    display: block;
+    content: '';
+    clear: both;
+  }
+}
+%bg-cover {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+%align-items-center {
+  display: flex;
+  align-items: center !important;
+}
+%flex {
+  display: flex;
+}
+%flex-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+%flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+%flex-around {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+%flex-column {
+  
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+%flex-start {
+  display: flex !important;
+  justify-content: flex-start !important;
+}
+%flex-end {
+  display: flex !important;
+  justify-content: flex-end !important;
+}
+.clearfix {
+  @extend %clr;
+}
+.bg-cover {
+  @extend %bg-cover;
+}
+.flex {
+  @extend %flex;
+}
+.flex-between {
+  @extend %flex-between;
+}
+.flex-centered {
+  @extend %flex-centered;
+}
+.flex-around {
+  @extend %flex-around;
+}
+.flex-column {
+  @extend %flex-column;
+}
+.flex-start {
+  @extend %flex-start;
+}
+.align-items-center {
+  @extend %align-items-center;
+}
+.flex-end {
+  @extend %flex-end;
+}
