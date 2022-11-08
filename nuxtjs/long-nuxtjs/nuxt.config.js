@@ -63,12 +63,6 @@ export default {
     fallback: true
   },
 
-  rollupOptions: {
-    input: {
-      main: resolve(__dirname, "index.html"),
-    }
-  },
-
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   }
